@@ -12,6 +12,6 @@ class AwsProfileSwitcher < Formula
   end
 
   test do
-    system "false"
+    system "apes", "-h"
   end
 end
