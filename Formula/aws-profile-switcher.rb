@@ -1,8 +1,8 @@
 class AwsProfileSwitcher < Formula
   desc "AWS_PROFILE switcher"
   homepage "https://github.com/BeLeap/aws-profile-switcher"
-  url "https://github.com/BeLeap/aws-profile-switcher/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "ee207e5cd425220e746b94fbceec63fbd76326a9c0d18834011ae7630664f2c9"
+  url "https://github.com/BeLeap/aws-profile-switcher/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "d9aa90e37a5216946700db0df82584e611d201405094451ed1863767d5af7112"
   license "MIT"
 
   bottle do
