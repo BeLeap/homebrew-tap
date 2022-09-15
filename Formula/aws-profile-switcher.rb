@@ -6,9 +6,9 @@ class AwsProfileSwitcher < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/BeLeap/homebrew-tap/releases/download/aws-profile-switcher-0.1.2"
-    sha256 cellar: :any_skip_relocation, big_sur:      "67bc2920925b4efef25391466a647625f9a2dfa7b1bd9438937425a8e993adf3"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "b708c7418ef666cb2d3eaaa9bf1186876851fe3236d1dc1b623e1e352f82d1a9"
+    root_url "https://github.com/BeLeap/homebrew-tap/releases/download/aws-profile-switcher-0.1.3"
+    sha256 cellar: :any_skip_relocation, big_sur:      "aa59a3ac93f9a6dc7eb049d2c374b53105fc7b2313e46fe0dce3e55add21afd6"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "d828b83c890fdbd804cf20ff33c927c7749ed32bbdc15656ea467895467e6605"
   end
 
   depends_on "rust" => :build
