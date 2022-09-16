@@ -7,9 +7,9 @@ class AwsProfileSwitcher < Formula
   head "https://github.com/BeLeap/aws-profile-switcher.git", branch: "main"
 
   bottle do
-    root_url "https://github.com/BeLeap/homebrew-tap/releases/download/aws-profile-switcher-0.1.3"
-    sha256 cellar: :any_skip_relocation, big_sur:      "aa59a3ac93f9a6dc7eb049d2c374b53105fc7b2313e46fe0dce3e55add21afd6"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "d828b83c890fdbd804cf20ff33c927c7749ed32bbdc15656ea467895467e6605"
+    root_url "https://github.com/BeLeap/homebrew-tap/releases/download/aws-profile-switcher-0.1.4"
+    sha256 cellar: :any_skip_relocation, big_sur:      "05ef21d066a08ff7cb118e0d3c60742818e166306ca4ff01f6bb7d4ba0aa3c1a"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "6e766896b82e6a9624fcc4cf6dac767e7f2f7ad5ffd830b3d7bdfc3aa3f57849"
   end
 
   depends_on "rust" => :build
