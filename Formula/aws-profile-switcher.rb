@@ -4,6 +4,7 @@ class AwsProfileSwitcher < Formula
   url "https://github.com/BeLeap/aws-profile-switcher/archive/refs/tags/v0.1.3.tar.gz"
   sha256 "dd47f6b3e9c1318c3a3df1a6d227cba471b9229111d5d51ed6c9093dbda3e438"
   license "MIT"
+  head "https://github.com/BeLeap/aws-profile-switcher.git", branch: "main"
 
   bottle do
     root_url "https://github.com/BeLeap/homebrew-tap/releases/download/aws-profile-switcher-0.1.3"
