@@ -6,6 +6,12 @@ class LongRunningNotify < Formula
   license "MIT"
   head "https://github.com/BeLeap/long-running-notify.git", branch: "main"
 
+  bottle do
+    root_url "https://github.com/BeLeap/homebrew-tap/releases/download/long-running-notify-0.1.0"
+    sha256 cellar: :any_skip_relocation, monterey:     "156e99ecb579cdddf85f429198f08738667205de0412f52464ab63c025ce3cdd"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "a1cf3a4f4e136ac77d96f03d4f76303992cd0bde23bf038bcd22ac5653aa939e"
+  end
+
   depends_on "rust" => :build
   depends_on "openssl@1.1"
 
