@@ -7,6 +7,7 @@ class LongRunningNotify < Formula
   head "https://github.com/BeLeap/long-running-notify.git", branch: "main"
 
   depends_on "rust" => :build
+  depends_on "openssl@1.1"
 
   def install
     system "cargo", "install", *std_cargo_args
