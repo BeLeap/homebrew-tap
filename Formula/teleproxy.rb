@@ -2,7 +2,7 @@ class Teleproxy < Formula
   desc "Spy and proxy http request on tele-location"
   homepage "https://github.com/BeLeap/teleproxy"
   url "https://github.com/BeLeap/teleproxy/archive/refs/tags/v0.0.1.tar.gz"
-  sha256 "9b4c86ef8595c3d6aa53ed31f397ea7cbabd72022d9000a1049673983c85e7c4"
+  sha256 "e580b515f3a443c1c6eef50e98c522ab3d3199127fc9b9f27dbebf548d0ef094"
   license "MIT"
 
   depends_on "go@1.21" => :build
