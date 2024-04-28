@@ -13,6 +13,6 @@ class Teleproxy < Formula
   end
 
   test do
-    system "false"
+    system "teleproxy", "-h"
   end
 end
