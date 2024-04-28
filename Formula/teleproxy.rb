@@ -8,7 +8,8 @@ class Teleproxy < Formula
   depends_on "go@1.21" => :build
 
   def install
-    system "go", "install", "./cmd/teleproxy"
+    system "go", "build", "./cmd/teleproxy"
+    bin.install "teleproxy"
   end
 
   test do
