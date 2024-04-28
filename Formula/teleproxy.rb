@@ -13,6 +13,6 @@ class Teleproxy < Formula
   end
 
   test do
-    system "teleproxy", "-h"
+    system "#{bin}/teleproxy", "-h"
   end
 end
