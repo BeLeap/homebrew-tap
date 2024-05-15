@@ -7,8 +7,8 @@ class Teleproxy < Formula
 
   bottle do
     root_url "https://github.com/BeLeap/homebrew-tap/releases/download/teleproxy-0.0.5"
-    sha256 cellar: :any_skip_relocation, ventura:      "9b9bd8f1d8370324d76447f1a9b0556f26ca3fbbe84e92e7bd1240ee65bea753"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "7589523d9b810c5dabf32ec358e73690a52aef8fb6e2a0cb889b8fdcdd384953"
+    sha256 cellar: :any_skip_relocation, ventura:      "c3590e636be8d8792ece64dd1be49c778a22b0a84503d3b5b2012c022849f098"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "3c8a178bfc412f97bd609feceb3d9d39a8c0372c11abd104d54258ca839a7175"
   end
 
   depends_on "go@1.21" => :build
