@@ -1,8 +1,8 @@
 class Teleproxy < Formula
   desc "Spy and proxy http request on tele-location"
   homepage "https://github.com/BeLeap/teleproxy"
-  url "https://github.com/BeLeap/teleproxy/archive/refs/tags/v0.0.5.tar.gz"
-  sha256 "c49a8526a889fcd5508dd621dce9373677d4f852bd1dddc0622de8891718d001"
+  url "https://github.com/BeLeap/teleproxy/archive/refs/tags/v0.0.6.tar.gz"
+  sha256 "ed095e25c328a456b3d8868b90bbe4a652e1c8a6fbe42470e4b180f7aa27e49c"
   license "MIT"
 
   bottle do
