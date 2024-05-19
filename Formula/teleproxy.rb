@@ -6,9 +6,9 @@ class Teleproxy < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/BeLeap/homebrew-tap/releases/download/teleproxy-0.0.6"
-    sha256 cellar: :any_skip_relocation, ventura:      "da82ecc285cc39c2c55590a17171821ea3fb695bf78ef7111803d02ce02f9403"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "a92221da02f0869f5cd7a00c80cfdbba5ed7507ecceabb0a4e4d61eef829aae6"
+    root_url "https://github.com/BeLeap/homebrew-tap/releases/download/teleproxy-0.0.7"
+    sha256 cellar: :any_skip_relocation, ventura:      "a7e744df0fbbb6b03717dd475fc3d727322b8e6fa7c9de0da667d893e90d68f3"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "3b3225b5795b0e17e92d3ad26de8978d5b653834c1bf10b6aa9fb03a3e5d0883"
   end
 
   depends_on "go@1.21" => :build
