@@ -1,8 +1,9 @@
 class KubectlCheck < Formula
   desc "Check for kubernetes metadata before executes command"
   homepage "https://github.com/BeLeap/kubectl-check"
-  url "https://github.com/BeLeap/kubectl-check/archive/refs/tags/v0.2439.1.tar.gz"
-  sha256 "5331205b35e1422820c904d06d2300c64336537cca8ee626af12bbf6039ae9bb"
+  url "https://github.com/BeLeap/kubectl-check/archive/refs/tags/v0.2439.2.tar.gz"
+  sha256 "7f0f072eccd32dc210d7a6b322ff70e7ada873175372defa956098f51d4f3c82"
+
   license "MIT"
   head "https://github.com/BeLeap/kubectl-check.git", branch: "main"
 
