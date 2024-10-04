@@ -8,9 +8,9 @@ class KubectlCheck < Formula
   head "https://github.com/BeLeap/kubectl-check.git", branch: "main"
 
   bottle do
-    root_url "https://github.com/BeLeap/homebrew-tap/releases/download/kubectl-check-0.2439.5"
-    sha256 cellar: :any_skip_relocation, ventura:      "211fceb4f3712d50f017b0baa1ec6140e040f1fa1fdbf115809bb0afc0052dd7"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "f7e536d6c8a7fe63d155778d842c720f3a0658190676f9bb4c9fdc9441f2d967"
+    root_url "https://github.com/BeLeap/homebrew-tap/releases/download/kubectl-check-0.2439.6"
+    sha256 cellar: :any_skip_relocation, ventura:      "da3ed2efedbef481022869380f1024f51ba1db96bdbd935c8833abe37afe5842"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "94a2a572c2fc13708f8ed16be6d67a04d0e3f6cb085c2dfa9bc6dbc81255a3ac"
   end
 
   depends_on "rust" => :build
