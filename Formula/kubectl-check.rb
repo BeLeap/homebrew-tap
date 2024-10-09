@@ -1,8 +1,8 @@
 class KubectlCheck < Formula
   desc "CLI tool to prompt user confirmation before running unsafe kubectl commands"
   homepage "https://github.com/BeLeap/kubectl-check"
-  url "https://github.com/BeLeap/kubectl-check/archive/refs/tags/v0.2439.6.tar.gz"
-  sha256 "48ea8fc195264ff81949a8d00d8fc91483d580a10662952ccbbfe1cb5e47cb07"
+  url "https://github.com/BeLeap/kubectl-check/archive/refs/tags/v0.2440.0.tar.gz"
+  sha256 "3de3986fe4993b95375f5ce9337bb9539b6e7ae0c643db83383f10028e129fb1"
 
   license "MIT"
   head "https://github.com/BeLeap/kubectl-check.git", branch: "main"
