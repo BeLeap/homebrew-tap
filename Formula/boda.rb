@@ -7,6 +7,12 @@ class Boda < Formula
   license "MIT"
   head "https://github.com/BeLeap/boda.git", branch: "master"
 
+  bottle do
+    root_url "https://github.com/BeLeap/homebrew-tap/releases/download/boda-0.6.1"
+    sha256 cellar: :any_skip_relocation, ventura:      "91c0643016641d56fef97f457da677236f5ec3f37a6f8141e73481bcd086b275"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "a6723e0e2822edc3d8a0cfd2f981ca661db43c36ef68bf74fe96aa2bdb4dd88a"
+  end
+
   depends_on "rust" => :build
 
   def install
