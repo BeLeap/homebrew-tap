@@ -8,9 +8,9 @@ class Boda < Formula
   head "https://github.com/BeLeap/boda.git", branch: "master"
 
   bottle do
-    root_url "https://github.com/BeLeap/homebrew-tap/releases/download/boda-0.6.1"
-    sha256 cellar: :any_skip_relocation, ventura:      "91c0643016641d56fef97f457da677236f5ec3f37a6f8141e73481bcd086b275"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "a6723e0e2822edc3d8a0cfd2f981ca661db43c36ef68bf74fe96aa2bdb4dd88a"
+    root_url "https://github.com/BeLeap/homebrew-tap/releases/download/boda-0.2520.0"
+    sha256 cellar: :any_skip_relocation, ventura:      "f692a351cc5fe988a927092823ebdbe4b240748013f79bf94c0a6ec549e89d72"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "566879bef9af2a546839f788591fb4ac5a37b5fecde63d17cfd4abecd6de67d3"
   end
 
   depends_on "rust" => :build
