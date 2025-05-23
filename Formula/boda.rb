@@ -1,8 +1,8 @@
 class Boda < Formula
   desc "Opinionated alternative watch"
   homepage "https://github.com/BeLeap/boga"
-  url "https://github.com/BeLeap/boda/archive/refs/tags/0.2520.0.tar.gz"
-  sha256 "8b07fa43e069d27276c97889a805f8659116a491cee35b8f8af8685500c568ee"
+  url "https://github.com/BeLeap/boda/archive/refs/tags/0.2521.0.tar.gz"
+  sha256 "e072ff2809a3a222bc95629b9bcad842cf422e39ecb15aee91b3069ca920f0d4"
 
   license "MIT"
   head "https://github.com/BeLeap/boda.git", branch: "master"
